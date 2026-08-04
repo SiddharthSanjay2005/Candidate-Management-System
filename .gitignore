@@ -1,54 +1,34 @@
-# Database file (contains sensitive credentials)
+# CRITICAL - Contains database credentials and login details
 01 LOGIN DETAILS & PROJECT INFO.txt
 
-# Environment and configuration files
-.env
+# Database files
+/DATABASE FILE/*.db
+/DATABASE FILE/*.sqlite
+/DATABASE FILE/*.sql
+/DATABASE FILE/*.db3
+/DATABASE FILE/*.sqlite3
+
+# Configuration files
 config.php
-database.php
 db_config.php
-*.conf
+database_config.php
+db_connect.php
+connection.php
 
-# IDE and system files
-.DS_Store
-Thumbs.db
-*.tmp
-*.log
-
-# PHP error logs
-error_log
-*.error.log
-
-# Backup files
-*.bak
-*.backup
-*.old
-
-# Composer dependencies (if you use them)
-/vendor/
-composer.lock
-composer.phar
-
-# Node modules (if you use npm)
-/node_modules/
-package-lock.json
-
-# Uploaded files and user data
-/uploads/
-/tmp/
-/cache/
-/sessions/
-
-# PDF exports (if these are generated)
+# Generated PDF files
 *.pdf
-/exported/
 /downloads/
+/exported/
+/pdf_exports/
 
-# CSS/JS compiled files (if you use preprocessors)
-*.min.css
-*.min.js
-*.map
+# Uploaded content
+/uploads/
+/images/uploads/
+/profile_images/
+/student_uploads/
+/faculty_uploads/
 
-# OS generated files
+# OS files
 .DS_Store
 .DS_Store?
 ._*
@@ -56,3 +36,60 @@ package-lock.json
 .Trashes
 ehthumbs.db
 Thumbs.db
+Desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+
+# Log files
+*.log
+error_log
+debug.log
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Session and cache
+/sessions/
+/cache/
+/tmp/
+
+# Composer (if used)
+/vendor/
+composer.lock
+composer.phar
+
+# Node modules (if used)
+/node_modules/
+package-lock.json
+yarn.lock
+
+# Compiled files
+*.min.css
+*.min.js
+*.map
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Package manager files
+package-lock.json
+yarn.lock
+
+# Project specific
+*.sql
+*.sql.gz
+*.zip
+*.rar
+*.tar.gz
