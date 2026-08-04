@@ -1,0 +1,58 @@
+# Database file (contains sensitive credentials)
+01 LOGIN DETAILS & PROJECT INFO.txt
+
+# Environment and configuration files
+.env
+config.php
+database.php
+db_config.php
+*.conf
+
+# IDE and system files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# PHP error logs
+error_log
+*.error.log
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Composer dependencies (if you use them)
+/vendor/
+composer.lock
+composer.phar
+
+# Node modules (if you use npm)
+/node_modules/
+package-lock.json
+
+# Uploaded files and user data
+/uploads/
+/tmp/
+/cache/
+/sessions/
+
+# PDF exports (if these are generated)
+*.pdf
+/exported/
+/downloads/
+
+# CSS/JS compiled files (if you use preprocessors)
+*.min.css
+*.min.js
+*.map
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
